@@ -1,12 +1,12 @@
 # CEE609 Final Research Project
 This repository contains code for the CEE609 Final Research Project
  
-The project investigates how coral reef nutrient levels change after bleaching events using data obtained from satellite imagery. The aim of the investigation is to determine the coral reef conditions 5 years after a bleaching event has occured. 
+The project investigates how coral reef nutrient levels change after bleaching events using data obtained from satellite imagery. The aim of the investigation is to determine the coral reef conditions the year after a bleaching event has occured. 
 
 ## Data Download and Pre-process Code
 Data is obtained from [https://oceancolor.gsfc.nasa.gov/13] as txt files containing urls in each line. Code cycles through each file and prepares data as a numpy array for further processing. 
 
-All text files used by the DataDownload.ipynb notebook can be found in /TxtFiles/
+All text files used by the DataDownload.ipynb notebook can be found in /DataSource/
 
 The authors would like to acknowledge the Ocean Biology Processing Group (OBPG) and the Ocean Biology Distributed Active Archive Center (OB.DAAC) at NASA’s Goddard Space Flight Center for providing data, technical assistance, and/or review support, which greatly contributed to the success of this work. Their contributions were instrumental in facilitating the research and ensuring data integrity.
 
