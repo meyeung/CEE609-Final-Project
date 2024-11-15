@@ -12,4 +12,6 @@ Data Citations:
 xxx
 
 ## Model Training and Validation Code
-The code utilizes outputs from DataDownload.ipynb to train and validate a model using data from the Red Sea Coral Reef. The model is then used to predict the state of the coral reef nutrient levels five years after the 2024 bleaching event. 
+The code utilizes outputs from DataDownload.ipynb to train and validate a Linear Regression model. Data from the 2016 and 2017 Great Barrier Reef (GBR) bleaching event and 2018 CHL levels are used to train the model. Then, the 2022 and ongoing 2024 bleaching events are fed into the model to predict future 2025 CHL levels. 
+
+
