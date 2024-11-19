@@ -15,6 +15,10 @@ Data Citations:
 NASA Ocean Biology Processing Group. (2024). Aqua MODIS instrument Level 3&4 Browser. Retrieved from https://oceancolor.gsfc.nasa.gov/showimages/MODISA/IMAGES
 
 ## Model Training and Validation Code
-The code utilizes outputs from DataDownload.ipynb to train and validate a Linear Regression model. Data from the 2016 and 2017 Great Barrier Reef (GBR) bleaching event and 2018 CHL levels are used to train the model. Then, the 2022 and ongoing 2024 bleaching events are fed into the model to predict future 2025 CHL levels. 
+The code utilizes outputs from DataDownload.ipynb to train and validate a model. Data from the 2016 and 2017 Great Barrier Reef (GBR) bleaching event and 2019 CHL levels are used to train the model. Then, the 2022 and ongoing 2024 bleaching events are fed into the model to predict future 2025 CHL levels. 
 
-
+Output figures: 
+* Scatterplots for the variables used to train the model 
+* Comparison between true and predicted 2019 CHL levels to visualize model performance
+* Scatterplots for the variables used to predict 2025 CHL levels 
+* Comparison between 2024 and predicted 2025 CHL levels to visualize any reef improvemenet or deterioration 
