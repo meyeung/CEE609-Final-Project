@@ -52,8 +52,11 @@ $$
 $$
 
 $$
-R^2 = 1 - \frac{ \sum_{i=1}^n ( y_i - \hat{y}_i )^2 }{ \sum_{i=1}^n } .
+R^2 = 1 - \sum_{i=1}^n (\frac{a}{b})^2
 $$
+
+\frac{ \sum_{i=1}^n ( y_i - \hat{y}_i )^2 }{ \sum_{i=1}^n } .
+
 
 $$
 \overline{a}
