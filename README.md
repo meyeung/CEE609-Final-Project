@@ -55,18 +55,8 @@ $$
 R^2 = 1 - \sum_{i=1}^n (\frac{y_i - \hat{y}_i}{y_i - \overline{y}})^2
 $$
 
-\frac{ \sum_{i=1}^n ( y_i - \hat{y}_i )^2 }{ \sum_{i=1}^n } .
+where $y_i$ are the actual values, $\hat{y}_i$ are the predicted values, and $\overline{(\cdot)}$ denotes a time-averaged quantity. 
 
-
-$$
-\overline{a}
-$$
-
-$$
-R^2 = 1 - \frac{\sum_{i=1}^n (y_i - \hat{y}_i )^2}{\sum_{i=1}^n ( y_i - \overline{y})^2}
-$$
-
-where $y_i$ are the predicted values, $\hat{y}_i$ are the predicted values, and $\overline{(\cdot)}$ denotes a time-averaged quantity. 
 Data from 2021 to 2024 is then used to predict future trends in 2025. If CHL levels are predicted to increase in 2025, this would indicate a decline in reef health in the following year, while lower CHL levels in 2025 would suggest the reef will begin the healing process. 
 
 
