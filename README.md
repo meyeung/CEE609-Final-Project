@@ -1,7 +1,7 @@
 # CEE609 Final Research Project
 **Repository Description:** This repository contains code for the CEE609 Final Research Project 
 
-**Authors:** Andrea Hoe$^1$ $\dagger$  and Melissa Yeung$^1,\ddag$ 
+**Authors:** Andrea Hoe $^1$ $\dagger$  and Melissa Yeung$ ^1$ 
 
 $\dagger$
 $\ddagger$
