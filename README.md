@@ -42,9 +42,19 @@ Jupyter Notebook is an open-source, interactive web-based environment that allow
 
 The software can be applied to past datasets to validate its predictive ability by comparing its outputs to the most recent data. The validation dataset will contain historical nutrient levels of CHL, POC, PIC, WLA, and PAR. The software’s predictive ability will be validated using historical GBR data. 
 The study trains a Ridge regression model using the listed predictor variables from 2015 to 2018 to learn patterns and trends. The 2019 prediction is then compared with satellite imagery collected in 2019 to assess accuracy by evaluating the differences between predictions and actual outcomes of nutrient levels after bleaching events. The Mean Absolute Error (MAE), Mean Square Error (MSE), and the R2 value are also computed as 
-$$\text{MAE} = \frac{1}{n} \sum_{i=1}^n | y_i - \hat{y}_i |, $$
-$$\text{MSE} = \frac{1}{n} \sum_{i=1}^n ( y_i - \hat{y}_i )^2, $$
-$$\text{R}^2 = 1 - \frac{\sum_{i=1}^n ( y_i - \hat{y}_i )^2}{\sum_{i=1}^n ( y_i - \overline{y} )^2}.$$
+
+$$
+\text{MAE} = \frac{1}{n} \sum_{i=1}^n | y_i - \hat{y}_i |, 
+$$
+
+$$
+\text{MSE} = \frac{1}{n} \sum_{i=1}^n ( y_i - \hat{y}_i )^2, 
+$$
+
+$$
+\text{R}^2 = 1 - \frac{\sum_{i=1}^n ( y_i - \hat{y}_i )^2}{\sum_{i=1}^n ( y_i - \overline{y} )^2}.
+$$
+
 where $y_i$ are the predicted values, $\hat{y}_i$ are the predicted values, and $\overline{(\cdot)}$ denotes a time-averaged quantity. 
 Data from 2021 to 2024 is then used to predict future trends in 2025. If CHL levels are predicted to increase in 2025, this would indicate a decline in reef health in the following year, while lower CHL levels in 2025 would suggest the reef will begin the healing process. 
 
