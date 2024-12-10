@@ -1,16 +1,16 @@
 # CEE609 Final Research Project
 **Repository Description:** This repository contains code for the CEE609 Final Research Project 
 
-**Authors:** Andrea Hoe$^1, \dagger$ and Melissa Yeung$^1,\ddag$ 
+**Authors:** Andrea Hoe$^1$ $\dagger$  and Melissa Yeung$^1,\ddag$ 
 
 $\dagger$
 $\ddagger$
 
 $^1$ Department of Mechanical and Aerospace Engineering, Syracuse University, Syracuse, NY 13244, USA 
 
-$\dag$ Email address for correspondence: ahoe01@syr.edu 
+$\dagger$ Email address for correspondence: ahoe01@syr.edu 
 
-$\ddag$ Email address for correspondence: meyeung@syr.edu 
+$\ddagger$ Email address for correspondence: meyeung@syr.edu 
  
 The project investigates how coral reef nutrient levels change after bleaching events using data obtained from satellite imagery. The aim of the investigation is to determine the coral reef conditions the year after a bleaching event has occured. 
 
