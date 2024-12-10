@@ -1,7 +1,13 @@
 # CEE609 Final Research Project
-This repository contains code for the CEE609 Final Research Project
+**Repository Description:** This repository contains code for the CEE609 Final Research Project
+**Authors:** Andrea Hoe$\dag,^1$ and Melissa Yeung$\ddag,^1$
+$^1$ Department of Mechanical and Aerospace Engineering, Syracuse University, Syracuse, NY 13244, USA
+$\dag$ Email address for correspondence: ahoe01@syr.edu
+$\ddag$ Email address for correspondence: meyeung@syr.edu
  
 The project investigates how coral reef nutrient levels change after bleaching events using data obtained from satellite imagery. The aim of the investigation is to determine the coral reef conditions the year after a bleaching event has occured. 
+
+
 
 
 
@@ -24,6 +30,8 @@ Additionally, the Commonwealth Scientific and Industrial Research Organisation (
 While previous studies highlight the immediate impact on coral health, the long-term effects on nutrient dynamics, especially chlorophyll, are unclear. The project aims to use satellite imagery to track these changes and build a predictive model for reef health. This work will contribute to understanding how nutrient levels impact coral recovery, aligning with existing literature that emphasizes the need to monitor post-bleaching conditions for better conservation and management.
 
 This project investigates how coral reef nutrient levels, particularly chlorophyll concentrations, will change in the year following the 2024 GBR bleaching event. This question aims to test the hypothesis that increased chlorophyll levels in coral reefs one year after bleaching events will negatively affect coral health, based on satellite imagery data and existing knowledge of nutrient dynamics.
+
+
 
 
 
@@ -64,14 +72,29 @@ Data from 2021 to 2024 is then used to predict future trends in 2025. If CHL lev
 
 
 ## Results
+This section presents the results obtained from the trained Ridge regression model, and future coral reef states are predicted for the GBR. All figures referenced below can be found in the ‘Figures’ folder. 
+
+### Model training 
+A scatterplot between all predictor variables (POC, PIC, WLA, PAR) is visualized to ensure there are no extraneous variables utilized, as shown in figure 1. It is determined that the chosen variables are not dependent on one another, as the scatterplots appear mostly random. Scatterplots between all predictor variables and the predictand (CHL) are also visualized in figure 2. 
+
+A Ridge regression model is trained using satellite imagery acquired between 2015 to 2018, and partitioned into training and testing datasets. An evaluation of the trained model is then visualized in figure 3, where plots comparing the actual and predicted CHL levels for the training and testing dataset are visualized. For a perfectly fitted model, a linear relationship is expected. It can be observed that the predicted and actual values mostly fall on a linear line for both datasets, suggesting that the model is capturing the GBR dynamics to a satisfactory level. Finally, the model is subjected to the full, unpartitioned dataset. Figure 4 presents a comparison between the true satellite image obtained for 2019 and the model prediction of 2019 CHL levels, visualized through a color contour. There is acceptable agreement between the two plots, and it is noted that the appearance of “missing data” in the upper right-hand corner of the model prediction is attributed to random lack of data points in the full satellite image for each month.
+
+### Model prediction
+Satellite data acquired between 2021 to 2024 is then utilized to predict GBR CHL levels for 2025. Figure 5 presents scatterplots of all predictor variables, where it is observed that the variables are not dependent on one another, as was for the training dataset. Figure 6(a) visualizes the most recent satellite image for the GBR, while figure 6(b) shows the predicted CHL levels for 2025. These results suggest that CHL levels will increase in 2025. This is shown from the darker blue being more present in 2024 and a lighter blue mostly present in the year 2025 in the GBR area signifying an increase in CHL. This is concerning because it often signals an overgrowth of algae, which can harm coral reef ecosystems. This suggests the nutrient levels in the GBR will continue to decline in the following year. 
+
+Prior literature has emphasized the immediate impact on coral reef health, but have failed to clarify the long-term effects. These results provide insight on coral reef conditions for the upcoming year, and can be further extended to studies that investigate future environmental conditions. Jupp *et al*. (1985) stated in their study that the bleaching event in 2002 was more severe than the 1998 bleaching. This shows there is more of an impact with continuous global warming causing thermal stresses. Liu *et al*. (2003) also looked into other factors such as light, salinity, pollution, and ocean currents, which affect the GBR’s health, which are factors that have been applied to this study, looking into POC, PIC, WLA, and PAR levels. The insights provided by this study bolsters the work and analysis previously done. This allows individuals to make better-informed decisions and policies regarding reef health and safety. 
+
+### Limitations and next steps
+The limitations of this study primarily involve the need for more further model training using data from multiple bleaching events to improve prediction accuracy. Moreover, a more elaborate model could be used to better capture nonlinear environmental behaviors. The satellite data utilized displayed some inherent, random lack of data, which impacted the accuracy of the model. Future iterations of the model could also incorporate a cubic interpolation scheme to remove these discrepancies. 
+
+Currently, the model focuses on nutrient levels of CHL after a single bleaching event. However, to extend health predictions to future bleaching events and beyond a one-year period, additional data from subsequent events is required such as predicting POC, PIC, WLA, and PAR levels. Future steps include refining the model with more diverse data, which would allow for long-term predictions and provide insights into how coral reef systems, including nutrient dynamics, recover or degrade after multiple bleaching events. Unanswered questions remain regarding the broader implications of changing nutrient levels on coral health, which should be explored to guide conservation strategies and improve our understanding of the ecological balance in coral reef ecosystems.
 
 
 
-## Discussion
 
 
 ## Conclusion 
-
+This study was conducted to address the unknowns in the long-term nutrient dynamics of coral reefs following bleaching events, particularly the role of chlorophyll (CHL) as a marker of nutrient imbalance. While existing literature focuses on the immediate effects of bleaching on coral health, the long-term impacts on nutrient levels and ecosystem recovery remain unclear. Using satellite imagery from 2015 to 2018, a Ridge regression model was trained using key predictors (POC, PIC, WLA, PAR). The model's performance was validated against true satellite imagery obtained in 2019. The analysis revealed five key findings: (1) CHL levels were accurately predicted, demonstrating the robustness of the regression model; (2) nutrient predictors showed no multicollinearity, ensuring reliable analysis; (3) CHL levels were forecasted to increase in 2025, highlighting a potential nutrient imbalance; (4) regions with historically higher CHL correlated with areas of reduced coral recovery; and (5) gaps in satellite data impact the precision of predictive models but highlight the importance of continuous data collection. These results emphasize the need for long-term monitoring and predictive modeling to guide effective reef management and conservation.
 
 
 
