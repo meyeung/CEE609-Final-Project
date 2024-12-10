@@ -1,6 +1,6 @@
 # CEE609 Final Research Project
-**Repository Description:** This repository contains code for the CEE609 Final Research Project <br>
-**Authors:** Andrea Hoe $^{1,\dagger}$ and Melissa Yeung $^{1,\ddagger}$ <br>
+**<u>Repository Description:</u>** This repository contains code for the CEE609 Final Research Project <br>
+**<u>Authors:</u>** Andrea Hoe $^{1,\dagger}$ and Melissa Yeung $^{1,\ddagger}$ <br>
 $^1$ Department of Mechanical and Aerospace Engineering, Syracuse University, Syracuse, NY 13244, USA <br>
 $\dagger$ Email address for correspondence: ahoe01@syr.edu <br>
 $\ddagger$ Email address for correspondence: meyeung@syr.edu 
