@@ -102,12 +102,12 @@ This study was conducted to address the unknowns in the long-term nutrient dynam
 
 
 ## Bibliography 
-[1] P. J. Mumby, W. Skirving, A. E. Strong, J. T. Hardy, E. F. LeDrew, E. J. Hochberg, R. P. Stumpf, and L. T. David, “Remote sensing of coral reefs and their physical environment,” Marine pollution bulletin, vol. 48, no. 3-4, pp. 219–228, 2004
-[2] J. D. Hedley, C. M. Roelfsema, I. Chollett, A. R. Harborne, S. F. Heron, S. J. Weeks, W. J. Skirving, A. E. Strong, C. M. Eakin, T. R. Christensen, et al., “Remote sensing of coral reefs for monitoring and management: a review,” Remote Sensing, vol. 8, no. 2, p. 118, 2016
-[3] M. J. Devlin, C. Petus, E. Da Silva, D. Tracey, N. H. Wolff, J. Waterhouse, and J. Brodie, “Water quality and river plume monitoring in the great barrier reef: an overview of methods based on ocean colour satellite data,” Remote Sensing, vol. 7, no. 10, pp. 12909– 12941, 2015
-[4] M. E. Baird, N. Cherukuru, E. Jones, N. Margvelashvili, M. Mongin, K. Oubelkheir, P. J. Ralph, F. Rizwi, B. J. Robson, T. Schroeder, et al., “Remote-sensing reflectance and true colour produced by a coupled hydrodynamic, optical, sediment, biogeochemical model of the great barrier reef, australia: comparison with satellite data,” Environmental modelling & software, vol. 78, pp. 79–96, 2016
-[5] D. L. Jupp, K. K. Mayo, D. A. Kuchler, D. V. R. Claasen, R. A. Kenchington, and P. R. Guerin, “Remote sensing for planning and managing the great barrier reef of australia,” Photogrammetria, vol. 40, no. 1, pp. 21–42, 1985
-[6] G. Liu, A. E. Strong, and W. Skirving, “Remote sensing of sea surface temperatures during 2002 barrier reef coral bleaching,” Eos, Transactions American Geophysical Union, vol. 84, no. 15, pp. 137–141, 2003
-[7] NASA Ocean Biology Processing Group. (2024). Aqua MODIS instrument Level 3&4 Browser. 
+[1] P. J. Mumby, W. Skirving, A. E. Strong, J. T. Hardy, E. F. LeDrew, E. J. Hochberg, R. P. Stumpf, and L. T. David, “Remote sensing of coral reefs and their physical environment,” Marine pollution bulletin, vol. 48, no. 3-4, pp. 219–228, 2004 <br>
+[2] J. D. Hedley, C. M. Roelfsema, I. Chollett, A. R. Harborne, S. F. Heron, S. J. Weeks, W. J. Skirving, A. E. Strong, C. M. Eakin, T. R. Christensen, et al., “Remote sensing of coral reefs for monitoring and management: a review,” Remote Sensing, vol. 8, no. 2, p. 118, 2016 <br>
+[3] M. J. Devlin, C. Petus, E. Da Silva, D. Tracey, N. H. Wolff, J. Waterhouse, and J. Brodie, “Water quality and river plume monitoring in the great barrier reef: an overview of methods based on ocean colour satellite data,” Remote Sensing, vol. 7, no. 10, pp. 12909– 12941, 2015 <br>
+[4] M. E. Baird, N. Cherukuru, E. Jones, N. Margvelashvili, M. Mongin, K. Oubelkheir, P. J. Ralph, F. Rizwi, B. J. Robson, T. Schroeder, et al., “Remote-sensing reflectance and true colour produced by a coupled hydrodynamic, optical, sediment, biogeochemical model of the great barrier reef, australia: comparison with satellite data,” Environmental modelling & software, vol. 78, pp. 79–96, 2016 <br>
+[5] D. L. Jupp, K. K. Mayo, D. A. Kuchler, D. V. R. Claasen, R. A. Kenchington, and P. R. Guerin, “Remote sensing for planning and managing the great barrier reef of australia,” Photogrammetria, vol. 40, no. 1, pp. 21–42, 1985 <br>
+[6] G. Liu, A. E. Strong, and W. Skirving, “Remote sensing of sea surface temperatures during 2002 barrier reef coral bleaching,” Eos, Transactions American Geophysical Union, vol. 84, no. 15, pp. 137–141, 2003 <br>
+[7] NASA Ocean Biology Processing Group. (2024). Aqua MODIS instrument Level 3&4 Browser. <br>
 
 
