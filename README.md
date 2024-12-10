@@ -41,7 +41,7 @@ Jupyter Notebook is an open-source, interactive web-based environment that allow
 ### Model description
 
 The software can be applied to past datasets to validate its predictive ability by comparing its outputs to the most recent data. The validation dataset will contain historical nutrient levels of CHL, POC, PIC, WLA, and PAR. The software’s predictive ability will be validated using historical GBR data. 
-The study trains a Ridge regression model using the listed predictor variables from 2015 to 2018 to learn patterns and trends. The 2019 prediction is then compared with satellite imagery collected in 2019 to assess accuracy by evaluating the differences between predictions and actual outcomes of nutrient levels after bleaching events. The Mean Absolute Error (MAE), Mean Square Error (MSE), and the R$^2$ value are also computed as 
+The study trains a Ridge regression model using the listed predictor variables from 2015 to 2018 to learn patterns and trends. The 2019 prediction is then compared with satellite imagery collected in 2019 to assess accuracy by evaluating the differences between predictions and actual outcomes of nutrient levels after bleaching events. The Mean Absolute Error ($\text{MAE}$), Mean Square Error ($\text{MSE}$), and the $R^2$ value are also computed as 
 
 $$
 \text{MAE} = \frac{1}{n} \sum_{i=1}^n | y_i - \hat{y}_i |, 
@@ -52,7 +52,7 @@ $$
 $$
 
 $$
-R^2 = 1 - \frac{a}{b}.
+R^2 = 1 - \frac{\sum_{i=1}^n (top)^2 }{\sum_{i=1}^n (bottom)^2} .
 $$
 
 $$
