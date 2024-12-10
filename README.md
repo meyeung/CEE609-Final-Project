@@ -34,20 +34,21 @@ This project investigates how coral reef nutrient levels, particularly chlorophy
 
 
 ## Data and Methods
-This section details how the satellite imagery will be aquired and post-processed. Details regarding the regression model to be trained are also given.  
+This section details how the satellite imagery will be aquired and post-processed. Details regarding the regression model to be trained are also given.
 
 ### Data source and processing methods 
 The NASA Ocean Color Level 3 Browser is a public open source data set that provides daily, 8-day, monthly, and yearly data for over 10 ocean color products, including chlorophyll concentration, sea surface temperature, and more. All satellite imagery can be accessed and downloaded from the NASA Ocean Color Level 3 Browser data (https://oceancolor.gsfc.nasa.gov). The recommended citation for each dataset is as follows: 
 NASA Ocean Biology Processing Group. (2024). Aqua MODIS instrument Level 3&4 Browser. 
 
-The world image is cropped to select regions, such as the Great Barrier Reef, and the Aqua-MODIS satellite is utilized to acquire all datasets. This tool allows us to visualize nutrient levels before and after bleaching events, and download high-resolution data across various time periods, supporting oceanographic and environmental research. The data has also been continuously collected since 2002, giving a temporally rich dataset. The downloaded data is in the form of numerous url links to corresponding satellite images, and all urls utilized in this study have been stored as text files and can be accessed in the ‘RawData’ folder. Additionally, all pre-processed data have been stored as arrays and can be accessed at (https://drive.google.com/drive/folders/1YouymrxNpIyiVkaV25Q1i_GLWqdZ8Er5?usp=share_link)
+The world image is cropped to select regions, such as the Great Barrier Reef, and the Aqua-MODIS satellite is utilized to acquire all datasets. This tool allows us to visualize nutrient levels before and after bleaching events, and download high-resolution data across various time periods, supporting oceanographic and environmental research. The data has also been continuously collected since 2002, giving a temporally rich dataset. 
 
 The validation dataset will contain historical nutrient levels of chlorophyll (CHL), particulate organic carbon (POC), particulate inorganic carbon (PIC), total absorption at 555nm (WLA), and photosynthetically available radiation (PAR) around the time of bleaching events. This will serve as inputs to train the predictive model. The model is then evaluated by comparing its predicted CHL levels to existing satellite imagery for that time. The model will be trained using historical GBR data from 2015 to 2019. Following this, the model will be subjected to GBR data from 2021 to 2024 to predict CHL levels for 2025, and patterns and trends elucidated from the model will be evaluated. All pre- and post-processing code is written in Jupyter Notebook and included. 
 
 Jupyter Notebook is an open-source, interactive web-based environment that allows users to create and share documents containing live code, equations, visualizations, and narrative text. It supports multiple programming languages, including Python, R, and Julia, making it a versatile tool for data analysis, machine learning, and scientific computing. The satellite data files of the parameters previously mentioned (CHL, etc.) will be uploaded to the notebook and each parameter will be mapped and examined. The main output will be the prediction of CHL levels in the year 2025.
 
-### Model description
+The downloaded data is in the form of numerous url links to corresponding satellite images, and all urls utilized in this study have been stored as text files which can be accessed in the ‘RawData’ folder. Additionally, all pre-processed data have been stored as arrays and can be accessed at (https://drive.google.com/drive/folders/1YouymrxNpIyiVkaV25Q1i_GLWqdZ8Er5?usp=share_link). Lastly, all codes written can be found in the 'Code' folder, and the trained model has been saved to 'ModelOutputs/model.pkl'.
 
+### Model description
 The software can be applied to past datasets to validate its predictive ability by comparing its outputs to the most recent data. The validation dataset will contain historical nutrient levels of CHL, POC, PIC, WLA, and PAR. The software’s predictive ability will be validated using historical GBR data. 
 The study trains a Ridge regression model using the listed predictor variables from 2015 to 2018 to learn patterns and trends. The 2019 prediction is then compared with satellite imagery collected in 2019 to assess accuracy by evaluating the differences between predictions and actual outcomes of nutrient levels after bleaching events. The Mean Absolute Error ($\text{MAE}$), Mean Square Error ($\text{MSE}$), and the $R^2$ value are also computed as 
 
@@ -107,6 +108,6 @@ This study was conducted to address the unknowns in the long-term nutrient dynam
 [4] M. E. Baird, N. Cherukuru, E. Jones, N. Margvelashvili, M. Mongin, K. Oubelkheir, P. J. Ralph, F. Rizwi, B. J. Robson, T. Schroeder, et al., “Remote-sensing reflectance and true colour produced by a coupled hydrodynamic, optical, sediment, biogeochemical model of the great barrier reef, australia: comparison with satellite data,” Environmental modelling & software, vol. 78, pp. 79–96, 2016
 [5] D. L. Jupp, K. K. Mayo, D. A. Kuchler, D. V. R. Claasen, R. A. Kenchington, and P. R. Guerin, “Remote sensing for planning and managing the great barrier reef of australia,” Photogrammetria, vol. 40, no. 1, pp. 21–42, 1985
 [6] G. Liu, A. E. Strong, and W. Skirving, “Remote sensing of sea surface temperatures during 2002 barrier reef coral bleaching,” Eos, Transactions American Geophysical Union, vol. 84, no. 15, pp. 137–141, 2003
-
+[7] NASA Ocean Biology Processing Group. (2024). Aqua MODIS instrument Level 3&4 Browser. 
 
 
