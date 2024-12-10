@@ -52,11 +52,11 @@ $$
 $$
 
 $$
-R^2 = 1 - \frac{\sum_{i=1}^n (top)^2 }{\sum_{i=1}^n (bottom)^2} .
+R^2 = 1 - \frac{\sum_{i=1}^n (y_i - \hat{y}_i)^2 }{\sum_{i=1}^n (y_i - \overline{y})^2} .
 $$
 
 $$
-R^2 = 1 - \frac{\sum_{i=1}^n ( y_i - \hat{y}_i )^2} {\sum_{i=1}^n ( y_i - \overline{y} )^2}
+R^2 = 1 - \frac{\sum_{i=1}^n (y_i - \hat{y}_i )^2}{\sum_{i=1}^n ( y_i - \overline{y})^2}
 $$
 
 where $y_i$ are the predicted values, $\hat{y}_i$ are the predicted values, and $\overline{(\cdot)}$ denotes a time-averaged quantity. 
