@@ -52,7 +52,7 @@ $$
 $$
 
 $$
-R^2 = 1 - \frac{\sum_{i=1}^n (y_i - \hat{y}_i)^2 }{\sum_{i=1}^n (y_i - y)^2} .
+R^2 = 1 - \frac{\sum_{i=1}^n (y_i)^2 }{botom)^2} .
 $$
 
 $$
