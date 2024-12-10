@@ -52,6 +52,10 @@ $$
 $$
 
 $$
+abc
+$$
+
+$$
 R^2 = 1 - \frac{\sum_{i=1}^n ( y_i - \hat{y}_i )^2} {\sum_{i=1}^n ( y_i - \overline{y} )^2}
 $$
 
