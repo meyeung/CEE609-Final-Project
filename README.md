@@ -61,7 +61,7 @@ $$
 $$
 
 $$
-R^2 = 1 - \sum_{i=1}^n (\frac{y_i - \hat{y}_i}{y_i - \overline{y}})^2.
+R^2 = 1 - \sum_{i=1}^n (\frac{y_i - \hat{y}_i}{y_i - \overline{y}})^2,
 $$
 
 where $y_i$ are the actual values, $\hat{y}_i$ are the predicted values, and $\overline{(\cdot)}$ denotes a time-averaged quantity. 
